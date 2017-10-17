@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017",
+        "noImplicitAny": false,
+        "outDir": "./dist",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "allowJs": true,
+        "emitDecoratorMetadata": true
+    },
+    "include": [
+        "./typings.d.ts",
+        "./src/**/*"
+    ]
+}

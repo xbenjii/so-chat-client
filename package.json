@@ -1,0 +1,40 @@
+{
+  "name": "so-chat-terminal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@deomitrus/blessed": "git+https://github.com/deomitrus/blessed.git",
+    "blessed": "^0.1.81",
+    "bluebird": "^3.5.1",
+    "caporal": "git+https://github.com/mattallty/Caporal.js.git",
+    "chalk": "^2.1.0",
+    "cheerio": "^1.0.0-rc.2",
+    "i": "^0.3.6",
+    "npm": "^5.5.1",
+    "read": "^1.0.7",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "tough-cookie-file-store": "^1.2.0",
+    "ws": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.7",
+    "@types/bluebird": "^3.5.16",
+    "@types/bunyan": "^1.8.3",
+    "@types/chalk": "^0.4.31",
+    "@types/cheerio": "^0.22.3",
+    "@types/node": "^8.0.41",
+    "@types/read": "0.0.28",
+    "@types/request": "^2.0.6",
+    "@types/request-promise": "^4.1.38",
+    "@types/ws": "^3.2.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3"
+  }
+}
