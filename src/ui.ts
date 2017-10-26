@@ -26,4 +26,4 @@ class UI {
     }
 }
 
-export {UI};
+export { UI };
