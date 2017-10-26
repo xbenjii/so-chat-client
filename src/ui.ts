@@ -22,7 +22,7 @@ class UI {
     });
 
     constructor() {
-
+        this.screen.append(this.input);
     }
 }
 
