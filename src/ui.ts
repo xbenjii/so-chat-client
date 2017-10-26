@@ -22,8 +22,8 @@ class UI {
     });
 
     constructor() {
-
+        this.screen.append(this.input);
     }
 }
 
-export {UI};
+export { UI };
